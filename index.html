@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>수사반장 1970 — 제1화 빗줄기 속의 거수</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect fill='%23100e0c' width='16' height='16'/%3E%3Crect fill='%23e6b15a' x='7' y='2' width='2' height='12'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+  <div id="boot" class="screen">
+    <div class="bezel">
+      <p class="eyebrow">종남경찰서 수사과</p>
+      <h1>수사반장</h1>
+      <p class="sub">1970 · THE COLD TRUTH</p>
+      <button id="power" type="button">전원을 켜시오</button>
+      <p class="fine">소리와 오프닝이 함께 시작됩니다.</p>
+    </div>
+  </div>
+
+  <div id="intro" class="screen" hidden>
+    <img id="opener" alt="비 내리는 명동, 트렌치코트 네 사람, 그리고 제목 수사반장 제1화" width="960" height="540">
+    <button id="skip" type="button">넘긴다</button>
+  </div>
+
+  <div id="title" class="screen" hidden>
+    <div class="bezel">
+      <p class="eyebrow">제1화</p>
+      <h1>빗줄기 속의 거수</h1>
+      <p class="sub">1972년 장마, 명동 한일은행</p>
+      <p class="blurb">인질 열두 명. 군용 카빈. 셔터 안의 땀. 박영한 반장이 말과 증거로 문을 연다.</p>
+      <div class="menu">
+        <button id="begin" type="button">수사를 시작한다</button>
+        <button id="resume" type="button">조서를 이어본다</button>
+        <button id="replay" type="button">오프닝을 다시 본다</button>
+        <button id="how" type="button">조작법</button>
+      </div>
+      <p id="seal" class="fine" hidden>제1화 조서 완결</p>
+      <p class="fine">창작 타이틀 영상 · 창작 MIDI</p>
+    </div>
+  </div>
+
+  <div id="help" class="screen" hidden>
+    <div class="bezel sheet">
+      <h2>조작법</h2>
+      <ul>
+        <li>왼쪽은 인물, 가운데는 행동, 오른쪽은 대상이다. 칸은 줄바꿈되지 않는다.</li>
+        <li>행동을 고르고 화면의 것, 오른쪽 물건, 왼쪽 형사를 누른다.</li>
+        <li>오른쪽 클릭은 언제나 「본다」.</li>
+        <li>「사용」과 「준다」는 인물이나 대상을 먼저 고르고, 다음 대상을 누른다.</li>
+        <li>숫자 키 1–9는 아홉 단어다. 5가 「본다」.</li>
+        <li>수사수첩을 사용하거나 N을 누르면 단서가 펼쳐진다. 둘을 눌러 맞댄다.</li>
+        <li>교전에서 숫자와 칸은 조준이다. 키패드 5가 한가운데, 6이 오른쪽이다.</li>
+        <li>R은 재장전. 한 박자 동안 비어 있다. 스페이스는 조경환의 엄호, 한 번.</li>
+        <li>셔터를 뜯을 때는 버튼이나 스페이스를 연타한다.</li>
+        <li>S는 조서를 이 브라우저에 남긴다.</li>
+      </ul>
+      <button id="helpBack" type="button">돌아간다</button>
+    </div>
+  </div>
+
+  <div id="game" class="screen" hidden>
+    <header class="top">
+      <div>
+        <p class="eyebrow">수사반장 1970</p>
+        <p id="room"></p>
+      </div>
+      <div class="top-actions">
+        <button id="mute" type="button">소리 끔</button>
+        <button id="saveBtn" type="button">조서 저장</button>
+        <button id="toTitle" type="button">타이틀</button>
+      </div>
+    </header>
+
+    <div id="monitor">
+      <canvas id="view" width="320" height="180"></canvas>
+      <div id="grid" hidden>
+        <button type="button" data-cell="7">7</button>
+        <button type="button" data-cell="8">8</button>
+        <button type="button" data-cell="9">9</button>
+        <button type="button" data-cell="4">4</button>
+        <button type="button" data-cell="5">5</button>
+        <button type="button" data-cell="6">6</button>
+        <button type="button" data-cell="1">1</button>
+        <button type="button" data-cell="2">2</button>
+        <button type="button" data-cell="3">3</button>
+      </div>
+      <div id="scan"></div>
+    </div>
+
+    <p id="sentence" class="sr-only" aria-live="polite"></p>
+    <div id="explain">
+      <div id="note-line">
+        <p id="thought"></p>
+        <p id="status" hidden></p>
+      </div>
+      <div id="stage-note">
+        <div id="talk" hidden>
+          <canvas id="portrait" width="64" height="64"></canvas>
+          <div class="talk-body">
+            <p id="who"></p>
+            <p id="line"></p>
+            <div id="choices"></div>
+          </div>
+        </div>
+
+        <div id="qte" hidden>
+          <p id="qteText">조경환과 함께 셔터를 뜯는다.</p>
+          <div class="meter"><div id="qteFill"></div></div>
+          <button id="mash" type="button">연타</button>
+        </div>
+
+        <div id="hud" hidden>
+          <p id="banner"></p>
+          <div class="meter"><div id="timeFill"></div></div>
+          <p id="vitals"></p>
+          <div class="row">
+            <button id="coverBtn" type="button">엄호</button>
+            <button id="reloadBtn" type="button">재장전</button>
+          </div>
+          <p id="toast"></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="console">
+      <section class="col" aria-label="인물">
+        <p class="slot"><i>인물</i><b id="slot-who">—</b></p>
+        <div id="team"></div>
+      </section>
+      <section class="col" aria-label="행동">
+        <p class="slot"><i>행동</i><b id="slot-verb">본다</b></p>
+        <div id="verbs"></div>
+      </section>
+      <section class="col" aria-label="대상">
+        <p class="slot"><i>대상</i><b id="slot-what">—</b></p>
+        <div id="inv"></div>
+      </section>
+    </div>
+
+    <div id="book" hidden>
+      <div class="sheet">
+        <h2>수사수첩</h2>
+        <p class="fine">단서 둘을 눌러 맞댄다.</p>
+        <div id="clues"></div>
+        <div class="row">
+          <button id="combine" type="button">맞댄다</button>
+          <button id="closeBook" type="button">덮는다</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="over" hidden>
+      <div class="sheet">
+        <h2>사건 미수</h2>
+        <p id="overText"></p>
+        <div class="row">
+          <button id="retry" type="button">그 순간으로</button>
+          <button id="overTitle" type="button">타이틀</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="ending" hidden>
+      <div class="sheet ending-sheet">
+        <p class="eyebrow">제1화 완결</p>
+        <h2>빗줄기 속의 거수</h2>
+        <p id="endingBody"></p>
+        <p class="quote">죄는 미워하되 사람은 미워하지 말라.</p>
+        <button id="endingTitle" type="button">타이틀로</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/songs.js"></script>
+  <script src="js/logic.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

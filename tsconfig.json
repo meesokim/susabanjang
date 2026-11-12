@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "strict": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@engine/*": [
+        "./node_modules/@quest-n-click/engine/src/engine/*"
+      ],
+      "@quest-n-click/engine/*": [
+        "./node_modules/@quest-n-click/engine/src/engine/api/*"
+      ],
+      "@game": [
+        "./game/index.ts"
+      ],
+      "@game/*": [
+        "./game/*"
+      ]
+    },
+    "types": [
+      "vite/client",
+      "node"
+    ]
+  },
+  "include": [
+    "game",
+    "node_modules/@quest-n-click/engine/src/env.d.ts"
+  ]
+}

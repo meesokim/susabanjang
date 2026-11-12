@@ -1,0 +1,28 @@
+{
+  "walk": { "area": [[16, 250], [620, 250], [630, 394], [8, 394]] },
+  "scale": [[250, 0.92], [394, 1.0]],
+  "entries": { "default": [72, 388], "from_car": [72, 388] },
+  "hotspots": {
+    "buick": { "rect": [4, 145, 220, 115], "approach": [110, 355] },
+    "trunk": { "rect": [8, 175, 55, 70], "approach": [40, 355] },
+    "buick_door": { "rect": [70, 175, 70, 70], "approach": [100, 355] },
+    "cordon": { "rect": [250, 185, 240, 28], "approach": [370, 350] },
+    "sign": { "rect": [270, 8, 160, 48], "approach": [340, 345] },
+    "doors": { "rect": [290, 65, 120, 110], "approach": [350, 350] },
+    "shutter": { "rect": [515, 95, 120, 175], "approach": [520, 360] }
+  },
+  "props": {
+    "shell": { "x": 385, "y": 376, "h": 22, "approach": [360, 384] },
+    "megaphone": { "x": 255, "y": 382, "h": 36, "approach": [255, 388] },
+    "crate": { "x": 48, "y": 250, "h": 34 },
+    "match": { "x": 120, "y": 230, "h": 22 }
+  },
+  "actors": {
+    "sangsoon": { "x": 155, "y": 386, "h": 264, "approach": [120, 388] },
+    "kyunghwan": { "x": 235, "y": 388, "h": 272, "approach": [200, 388] },
+    "hojeong": { "x": 320, "y": 384, "h": 262, "approach": [285, 386] },
+    "officer": { "x": 415, "y": 380, "h": 260, "approach": [380, 384] },
+    "manager": { "x": 495, "y": 378, "h": 258, "approach": [460, 382] },
+    "lee": { "x": 580, "y": 384, "h": 260, "approach": [540, 386] }
+  }
+}

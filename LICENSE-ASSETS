@@ -1,0 +1,9 @@
+The images, music, and sound effects of 수사반장 1970 are original to this game, except the template placeholders named in CREDITS.md.
+Their entries in game/provenance.json name the author and the licence. File by file: CREDITS.md and assets-manifest.json.
+The engine's code is under LICENSE.
+
+The Korean glyphs in public/fonts/DotGothic16.ttf are a subset of NanumGothic, not DotGothic16.
+quest'n'click reads Korean from that file name, so only the name follows the engine's font slot.
+NanumGothic is Copyright (c) 2011 NHN Corporation, designed by Sandoll Communications, and licensed under the SIL Open Font License, Version 1.1.
+https://scripts.sil.org/OFL
+The reserved font names Nanum and Sandoll still apply. The subset notice is also in assets/fonts/NOTICE.txt.

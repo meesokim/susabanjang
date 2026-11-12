@@ -1,0 +1,813 @@
+{
+ "images": {
+  "aim/chest": [
+   420,
+   262
+  ],
+  "aim/hostage": [
+   420,
+   262
+  ],
+  "aim/mook": [
+   420,
+   262
+  ],
+  "aim/wrist": [
+   420,
+   262
+  ],
+  "cast/hojeong/r1c2": [
+   158,
+   186
+  ],
+  "cast/hojeong/r2c1": [
+   149,
+   420
+  ],
+  "cast/hojeong/r2c2": [
+   149,
+   420
+  ],
+  "cast/hojeong/r2c3": [
+   149,
+   420
+  ],
+  "cast/hojeong/r2c4": [
+   149,
+   420
+  ],
+  "cast/hojeong/r2c5": [
+   149,
+   420
+  ],
+  "cast/hojeong/r2c6": [
+   149,
+   420
+  ],
+  "cast/hojeong/r3c1": [
+   149,
+   420
+  ],
+  "cast/hojeong/r3c2": [
+   149,
+   420
+  ],
+  "cast/hojeong/r3c3": [
+   149,
+   420
+  ],
+  "cast/hojeong/r3c4": [
+   149,
+   420
+  ],
+  "cast/hojeong/r3c5": [
+   149,
+   420
+  ],
+  "cast/hojeong/r3c6": [
+   149,
+   420
+  ],
+  "cast/hojeong/r4c1": [
+   149,
+   420
+  ],
+  "cast/hojeong/r4c2": [
+   149,
+   420
+  ],
+  "cast/hojeong/r4c3": [
+   149,
+   420
+  ],
+  "cast/hojeong/r4c4": [
+   149,
+   420
+  ],
+  "cast/hojeong/r4c5": [
+   149,
+   420
+  ],
+  "cast/hojeong/r4c6": [
+   149,
+   420
+  ],
+  "cast/kyunghwan/r1c2": [
+   187,
+   191
+  ],
+  "cast/kyunghwan/r2c1": [
+   175,
+   420
+  ],
+  "cast/kyunghwan/r2c2": [
+   175,
+   420
+  ],
+  "cast/kyunghwan/r2c3": [
+   175,
+   420
+  ],
+  "cast/kyunghwan/r2c4": [
+   175,
+   420
+  ],
+  "cast/kyunghwan/r2c5": [
+   175,
+   420
+  ],
+  "cast/kyunghwan/r2c6": [
+   175,
+   420
+  ],
+  "cast/kyunghwan/r3c1": [
+   175,
+   420
+  ],
+  "cast/kyunghwan/r3c2": [
+   175,
+   420
+  ],
+  "cast/kyunghwan/r3c3": [
+   175,
+   420
+  ],
+  "cast/kyunghwan/r3c4": [
+   175,
+   420
+  ],
+  "cast/kyunghwan/r3c5": [
+   175,
+   420
+  ],
+  "cast/kyunghwan/r3c6": [
+   175,
+   420
+  ],
+  "cast/kyunghwan/r4c1": [
+   175,
+   420
+  ],
+  "cast/kyunghwan/r4c2": [
+   175,
+   420
+  ],
+  "cast/kyunghwan/r4c3": [
+   175,
+   420
+  ],
+  "cast/kyunghwan/r4c4": [
+   175,
+   420
+  ],
+  "cast/kyunghwan/r4c5": [
+   175,
+   420
+  ],
+  "cast/kyunghwan/r4c6": [
+   175,
+   420
+  ],
+  "cast/lee/r1c2": [
+   143,
+   187
+  ],
+  "cast/lee/r2c1": [
+   141,
+   420
+  ],
+  "cast/lee/r2c2": [
+   141,
+   420
+  ],
+  "cast/lee/r2c3": [
+   141,
+   420
+  ],
+  "cast/lee/r2c4": [
+   141,
+   420
+  ],
+  "cast/lee/r2c5": [
+   141,
+   420
+  ],
+  "cast/lee/r2c6": [
+   141,
+   420
+  ],
+  "cast/lee/r3c1": [
+   141,
+   420
+  ],
+  "cast/lee/r3c2": [
+   141,
+   420
+  ],
+  "cast/lee/r3c3": [
+   141,
+   420
+  ],
+  "cast/lee/r3c4": [
+   141,
+   420
+  ],
+  "cast/lee/r3c5": [
+   141,
+   420
+  ],
+  "cast/lee/r3c6": [
+   141,
+   420
+  ],
+  "cast/lee/r4c1": [
+   141,
+   420
+  ],
+  "cast/lee/r4c2": [
+   141,
+   420
+  ],
+  "cast/lee/r4c3": [
+   141,
+   420
+  ],
+  "cast/lee/r4c4": [
+   141,
+   420
+  ],
+  "cast/lee/r4c5": [
+   141,
+   420
+  ],
+  "cast/lee/r4c6": [
+   141,
+   420
+  ],
+  "cast/manager/r1c2": [
+   146,
+   189
+  ],
+  "cast/manager/r2c1": [
+   140,
+   420
+  ],
+  "cast/manager/r2c2": [
+   140,
+   420
+  ],
+  "cast/manager/r2c3": [
+   140,
+   420
+  ],
+  "cast/manager/r2c4": [
+   140,
+   420
+  ],
+  "cast/manager/r2c5": [
+   140,
+   420
+  ],
+  "cast/manager/r2c6": [
+   140,
+   420
+  ],
+  "cast/manager/r3c1": [
+   140,
+   420
+  ],
+  "cast/manager/r3c2": [
+   140,
+   420
+  ],
+  "cast/manager/r3c3": [
+   140,
+   420
+  ],
+  "cast/manager/r3c4": [
+   140,
+   420
+  ],
+  "cast/manager/r3c5": [
+   140,
+   420
+  ],
+  "cast/manager/r3c6": [
+   140,
+   420
+  ],
+  "cast/manager/r4c1": [
+   140,
+   420
+  ],
+  "cast/manager/r4c2": [
+   140,
+   420
+  ],
+  "cast/manager/r4c3": [
+   140,
+   420
+  ],
+  "cast/manager/r4c4": [
+   140,
+   420
+  ],
+  "cast/manager/r4c5": [
+   140,
+   420
+  ],
+  "cast/manager/r4c6": [
+   140,
+   420
+  ],
+  "cast/obal/r1c2": [
+   233,
+   262
+  ],
+  "cast/obal/r2c1": [
+   157,
+   420
+  ],
+  "cast/obal/r2c2": [
+   157,
+   420
+  ],
+  "cast/obal/r2c3": [
+   157,
+   420
+  ],
+  "cast/obal/r2c4": [
+   157,
+   420
+  ],
+  "cast/obal/r2c5": [
+   157,
+   420
+  ],
+  "cast/obal/r2c6": [
+   157,
+   420
+  ],
+  "cast/obal/r3c1": [
+   157,
+   420
+  ],
+  "cast/obal/r3c2": [
+   157,
+   420
+  ],
+  "cast/obal/r3c3": [
+   157,
+   420
+  ],
+  "cast/obal/r3c4": [
+   157,
+   420
+  ],
+  "cast/obal/r3c5": [
+   157,
+   420
+  ],
+  "cast/obal/r3c6": [
+   157,
+   420
+  ],
+  "cast/obal/r4c1": [
+   157,
+   420
+  ],
+  "cast/obal/r4c2": [
+   157,
+   420
+  ],
+  "cast/obal/r4c3": [
+   157,
+   420
+  ],
+  "cast/obal/r4c4": [
+   157,
+   420
+  ],
+  "cast/obal/r4c5": [
+   157,
+   420
+  ],
+  "cast/obal/r4c6": [
+   157,
+   420
+  ],
+  "cast/officer/r1c2": [
+   166,
+   187
+  ],
+  "cast/officer/r2c1": [
+   159,
+   420
+  ],
+  "cast/officer/r2c2": [
+   159,
+   420
+  ],
+  "cast/officer/r2c3": [
+   159,
+   420
+  ],
+  "cast/officer/r2c4": [
+   159,
+   420
+  ],
+  "cast/officer/r2c5": [
+   159,
+   420
+  ],
+  "cast/officer/r2c6": [
+   159,
+   420
+  ],
+  "cast/officer/r3c1": [
+   159,
+   420
+  ],
+  "cast/officer/r3c2": [
+   159,
+   420
+  ],
+  "cast/officer/r3c3": [
+   159,
+   420
+  ],
+  "cast/officer/r3c4": [
+   159,
+   420
+  ],
+  "cast/officer/r3c5": [
+   159,
+   420
+  ],
+  "cast/officer/r3c6": [
+   159,
+   420
+  ],
+  "cast/officer/r4c1": [
+   159,
+   420
+  ],
+  "cast/officer/r4c2": [
+   159,
+   420
+  ],
+  "cast/officer/r4c3": [
+   159,
+   420
+  ],
+  "cast/officer/r4c4": [
+   159,
+   420
+  ],
+  "cast/officer/r4c5": [
+   159,
+   420
+  ],
+  "cast/officer/r4c6": [
+   159,
+   420
+  ],
+  "cast/park/r1c2": [
+   249,
+   260
+  ],
+  "cast/park/r2c1": [
+   168,
+   420
+  ],
+  "cast/park/r2c2": [
+   168,
+   420
+  ],
+  "cast/park/r2c3": [
+   168,
+   420
+  ],
+  "cast/park/r2c4": [
+   168,
+   420
+  ],
+  "cast/park/r2c5": [
+   168,
+   420
+  ],
+  "cast/park/r2c6": [
+   168,
+   420
+  ],
+  "cast/park/r3c1": [
+   168,
+   420
+  ],
+  "cast/park/r3c2": [
+   168,
+   420
+  ],
+  "cast/park/r3c3": [
+   168,
+   420
+  ],
+  "cast/park/r3c4": [
+   168,
+   420
+  ],
+  "cast/park/r3c5": [
+   168,
+   420
+  ],
+  "cast/park/r3c6": [
+   168,
+   420
+  ],
+  "cast/park/r4c1": [
+   168,
+   420
+  ],
+  "cast/park/r4c2": [
+   168,
+   420
+  ],
+  "cast/park/r4c3": [
+   168,
+   420
+  ],
+  "cast/park/r4c4": [
+   168,
+   420
+  ],
+  "cast/park/r4c5": [
+   168,
+   420
+  ],
+  "cast/park/r4c6": [
+   168,
+   420
+  ],
+  "cast/sangsoon/r1c2": [
+   173,
+   182
+  ],
+  "cast/sangsoon/r2c1": [
+   167,
+   420
+  ],
+  "cast/sangsoon/r2c2": [
+   167,
+   420
+  ],
+  "cast/sangsoon/r2c3": [
+   167,
+   420
+  ],
+  "cast/sangsoon/r2c4": [
+   167,
+   420
+  ],
+  "cast/sangsoon/r2c5": [
+   167,
+   420
+  ],
+  "cast/sangsoon/r2c6": [
+   167,
+   420
+  ],
+  "cast/sangsoon/r3c1": [
+   167,
+   420
+  ],
+  "cast/sangsoon/r3c2": [
+   167,
+   420
+  ],
+  "cast/sangsoon/r3c3": [
+   167,
+   420
+  ],
+  "cast/sangsoon/r3c4": [
+   167,
+   420
+  ],
+  "cast/sangsoon/r3c5": [
+   167,
+   420
+  ],
+  "cast/sangsoon/r3c6": [
+   167,
+   420
+  ],
+  "cast/sangsoon/r4c1": [
+   167,
+   420
+  ],
+  "cast/sangsoon/r4c2": [
+   167,
+   420
+  ],
+  "cast/sangsoon/r4c3": [
+   167,
+   420
+  ],
+  "cast/sangsoon/r4c4": [
+   167,
+   420
+  ],
+  "cast/sangsoon/r4c5": [
+   167,
+   420
+  ],
+  "cast/sangsoon/r4c6": [
+   167,
+   420
+  ],
+  "cast/woman/r1c2": [
+   170,
+   252
+  ],
+  "cast/woman/r2c1": [
+   119,
+   420
+  ],
+  "cast/woman/r2c2": [
+   119,
+   420
+  ],
+  "cast/woman/r2c3": [
+   119,
+   420
+  ],
+  "cast/woman/r2c4": [
+   119,
+   420
+  ],
+  "cast/woman/r2c5": [
+   119,
+   420
+  ],
+  "cast/woman/r2c6": [
+   119,
+   420
+  ],
+  "cast/woman/r3c1": [
+   119,
+   420
+  ],
+  "cast/woman/r3c2": [
+   119,
+   420
+  ],
+  "cast/woman/r3c3": [
+   119,
+   420
+  ],
+  "cast/woman/r3c4": [
+   119,
+   420
+  ],
+  "cast/woman/r3c5": [
+   119,
+   420
+  ],
+  "cast/woman/r3c6": [
+   119,
+   420
+  ],
+  "cast/woman/r4c1": [
+   119,
+   420
+  ],
+  "cast/woman/r4c2": [
+   119,
+   420
+  ],
+  "cast/woman/r4c3": [
+   119,
+   420
+  ],
+  "cast/woman/r4c4": [
+   119,
+   420
+  ],
+  "cast/woman/r4c5": [
+   119,
+   420
+  ],
+  "cast/woman/r4c6": [
+   119,
+   420
+  ],
+  "decor/bank": [
+   320,
+   200
+  ],
+  "decor/car": [
+   320,
+   200
+  ],
+  "decor/street": [
+   320,
+   200
+  ],
+  "items/gun": [
+   91,
+   51
+  ],
+  "items/lighter": [
+   37,
+   101
+  ],
+  "items/mag": [
+   45,
+   101
+  ],
+  "items/match": [
+   69,
+   61
+  ],
+  "items/megaphone": [
+   126,
+   139
+  ],
+  "items/memo": [
+   81,
+   105
+  ],
+  "items/notebook": [
+   81,
+   105
+  ],
+  "items/receipt": [
+   77,
+   113
+  ],
+  "items/shell": [
+   35,
+   93
+  ],
+  "starter/ui/car": [
+   145,
+   145
+  ],
+  "starter/ui/confetti1": [
+   145,
+   145
+  ],
+  "starter/ui/confetti2": [
+   145,
+   145
+  ],
+  "starter/ui/map": [
+   145,
+   145
+  ],
+  "starter/ui/music": [
+   145,
+   145
+  ],
+  "starter/ui/news": [
+   145,
+   145
+  ],
+  "starter/ui/pause": [
+   145,
+   145
+  ],
+  "starter/ui/pin": [
+   145,
+   145
+  ],
+  "starter/ui/plane": [
+   145,
+   145
+  ],
+  "starter/ui/spark": [
+   145,
+   145
+  ]
+ },
+ "audio": {
+  "music": {
+   "intro": "music/intro.mp3",
+   "car": "music/car.mp3",
+   "street": "music/street.mp3",
+   "bank": "music/bank.mp3",
+   "tense": "music/tense.mp3",
+   "end": "music/end.mp3"
+  },
+  "sfx": {
+   "rain": "sfx/rain.mp3",
+   "rain_indoor": "sfx/rain_indoor.mp3",
+   "traffic": "sfx/traffic.mp3",
+   "click": "sfx/click.mp3",
+   "pickup": "sfx/pickup.mp3",
+   "shutter": "sfx/shutter.mp3"
+  },
+  "voices": {}
+ },
+ "videos": {},
+ "artStyle": "pixel"
+}

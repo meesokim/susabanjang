@@ -1,0 +1,26 @@
+{
+  "name": "susabanjang",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "config": {
+    "game": "qnc-susa"
+  },
+  "scripts": {
+    "dev": "WEB_SCUMM_LAN=1 quest-n-click dev --port 8080 --strictPort",
+    "studio": "quest-n-click studio",
+    "assets": "quest-n-click assets",
+    "verify": "quest-n-click verify",
+    "build": "quest-n-click build",
+    "release": "quest-n-click release",
+    "preview": "quest-n-click preview",
+    "test": "vitest run",
+    "quest-n-click": "quest-n-click"
+  },
+  "dependencies": {
+    "@quest-n-click/engine": "https://github.com/Quest-n-Click/quest-n-click/releases/download/v4.7.3/quest-n-click-4.7.3.tgz"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.3"
+  }
+}
